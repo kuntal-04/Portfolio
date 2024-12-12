@@ -76,7 +76,7 @@ body a {
     padding: var(--navbar-li-a-padding);
 
     display: block;
-    
+
     text-decoration: none;
     text-align: center;
     font-weight: bold;
@@ -95,8 +95,9 @@ body a {
 }
 
 #navbar h3 {
+    padding: var(--navbar-h3);
+    display: flex;
     margin-left: 90px;
-    height: var(--navbar-height);
     position: fixed;
 }
 
